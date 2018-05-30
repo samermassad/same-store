@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  iOS
 //
-//  Created by epita on 28/03/2018.
+//  Created by Samer Masaad on 28/03/2018.
 //  Copyright © 2018 epita. All rights reserved.
 //
 

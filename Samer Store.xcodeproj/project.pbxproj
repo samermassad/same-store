@@ -14,6 +14,8 @@
 		4C0DE994206BFBC40092344E /* iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0DE993206BFBC40092344E /* iOSTests.swift */; };
 		4C0DE99F206BFBC40092344E /* iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0DE99E206BFBC40092344E /* iOSUITests.swift */; };
 		4C0DE9AD206BFF140092344E /* tableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0DE9AC206BFF140092344E /* tableViewController.swift */; };
+		4C95D026206D4EA4004AB360 /* meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C95D025206D4EA4004AB360 /* meal.swift */; };
+		4C95D028206D5CFF004AB360 /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C95D027206D5CFF004AB360 /* detailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +36,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4C0DE97B206BFBC30092344E /* iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C0DE97B206BFBC30092344E /* Samer Store.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Samer Store.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C0DE97E206BFBC30092344E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C0DE983206BFBC30092344E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C0DE985206BFBC30092344E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C0DE988206BFBC30092344E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C0DE98A206BFBC30092344E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4C0DE98F206BFBC40092344E /* iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C0DE98F206BFBC40092344E /* Samer StoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Samer StoreTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C0DE993206BFBC40092344E /* iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTests.swift; sourceTree = "<group>"; };
 		4C0DE995206BFBC40092344E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4C0DE99A206BFBC40092344E /* iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C0DE99A206BFBC40092344E /* Samer StoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Samer StoreUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C0DE99E206BFBC40092344E /* iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSUITests.swift; sourceTree = "<group>"; };
 		4C0DE9A0206BFBC40092344E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C0DE9AC206BFF140092344E /* tableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewController.swift; sourceTree = "<group>"; };
+		4C95D025206D4EA4004AB360 /* meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meal.swift; sourceTree = "<group>"; };
+		4C95D027206D5CFF004AB360 /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +82,8 @@
 			isa = PBXGroup;
 			children = (
 				4C0DE97D206BFBC30092344E /* iOS */,
-				4C0DE992206BFBC40092344E /* iOSTests */,
-				4C0DE99D206BFBC40092344E /* iOSUITests */,
+				4C0DE992206BFBC40092344E /* SamerStoreTests */,
+				4C0DE99D206BFBC40092344E /* SamerStoreUITests */,
 				4C0DE97C206BFBC30092344E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,9 +91,9 @@
 		4C0DE97C206BFBC30092344E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4C0DE97B206BFBC30092344E /* iOS.app */,
-				4C0DE98F206BFBC40092344E /* iOSTests.xctest */,
-				4C0DE99A206BFBC40092344E /* iOSUITests.xctest */,
+				4C0DE97B206BFBC30092344E /* Samer Store.app */,
+				4C0DE98F206BFBC40092344E /* Samer StoreTests.xctest */,
+				4C0DE99A206BFBC40092344E /* Samer StoreUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,6 +103,8 @@
 			children = (
 				4C0DE97E206BFBC30092344E /* AppDelegate.swift */,
 				4C0DE982206BFBC30092344E /* Main.storyboard */,
+				4C95D027206D5CFF004AB360 /* detailViewController.swift */,
+				4C95D025206D4EA4004AB360 /* meal.swift */,
 				4C0DE985206BFBC30092344E /* Assets.xcassets */,
 				4C0DE9AC206BFF140092344E /* tableViewController.swift */,
 				4C0DE987206BFBC30092344E /* LaunchScreen.storyboard */,
@@ -107,30 +113,30 @@
 			path = iOS;
 			sourceTree = "<group>";
 		};
-		4C0DE992206BFBC40092344E /* iOSTests */ = {
+		4C0DE992206BFBC40092344E /* SamerStoreTests */ = {
 			isa = PBXGroup;
 			children = (
 				4C0DE993206BFBC40092344E /* iOSTests.swift */,
 				4C0DE995206BFBC40092344E /* Info.plist */,
 			);
-			path = iOSTests;
+			path = SamerStoreTests;
 			sourceTree = "<group>";
 		};
-		4C0DE99D206BFBC40092344E /* iOSUITests */ = {
+		4C0DE99D206BFBC40092344E /* SamerStoreUITests */ = {
 			isa = PBXGroup;
 			children = (
 				4C0DE99E206BFBC40092344E /* iOSUITests.swift */,
 				4C0DE9A0206BFBC40092344E /* Info.plist */,
 			);
-			path = iOSUITests;
+			path = SamerStoreUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4C0DE97A206BFBC30092344E /* iOS */ = {
+		4C0DE97A206BFBC30092344E /* Samer Store */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4C0DE9A3206BFBC40092344E /* Build configuration list for PBXNativeTarget "iOS" */;
+			buildConfigurationList = 4C0DE9A3206BFBC40092344E /* Build configuration list for PBXNativeTarget "Samer Store" */;
 			buildPhases = (
 				4C0DE977206BFBC30092344E /* Sources */,
 				4C0DE978206BFBC30092344E /* Frameworks */,
@@ -140,14 +146,14 @@
 			);
 			dependencies = (
 			);
-			name = iOS;
+			name = "Samer Store";
 			productName = iOS;
-			productReference = 4C0DE97B206BFBC30092344E /* iOS.app */;
+			productReference = 4C0DE97B206BFBC30092344E /* Samer Store.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4C0DE98E206BFBC40092344E /* iOSTests */ = {
+		4C0DE98E206BFBC40092344E /* Samer StoreTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4C0DE9A6206BFBC40092344E /* Build configuration list for PBXNativeTarget "iOSTests" */;
+			buildConfigurationList = 4C0DE9A6206BFBC40092344E /* Build configuration list for PBXNativeTarget "Samer StoreTests" */;
 			buildPhases = (
 				4C0DE98B206BFBC40092344E /* Sources */,
 				4C0DE98C206BFBC40092344E /* Frameworks */,
@@ -158,14 +164,14 @@
 			dependencies = (
 				4C0DE991206BFBC40092344E /* PBXTargetDependency */,
 			);
-			name = iOSTests;
+			name = "Samer StoreTests";
 			productName = iOSTests;
-			productReference = 4C0DE98F206BFBC40092344E /* iOSTests.xctest */;
+			productReference = 4C0DE98F206BFBC40092344E /* Samer StoreTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4C0DE999206BFBC40092344E /* iOSUITests */ = {
+		4C0DE999206BFBC40092344E /* Samer StoreUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4C0DE9A9206BFBC40092344E /* Build configuration list for PBXNativeTarget "iOSUITests" */;
+			buildConfigurationList = 4C0DE9A9206BFBC40092344E /* Build configuration list for PBXNativeTarget "Samer StoreUITests" */;
 			buildPhases = (
 				4C0DE996206BFBC40092344E /* Sources */,
 				4C0DE997206BFBC40092344E /* Frameworks */,
@@ -176,9 +182,9 @@
 			dependencies = (
 				4C0DE99C206BFBC40092344E /* PBXTargetDependency */,
 			);
-			name = iOSUITests;
+			name = "Samer StoreUITests";
 			productName = iOSUITests;
-			productReference = 4C0DE99A206BFBC40092344E /* iOSUITests.xctest */;
+			productReference = 4C0DE99A206BFBC40092344E /* Samer StoreUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +213,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4C0DE976206BFBC30092344E /* Build configuration list for PBXProject "iOS" */;
+			buildConfigurationList = 4C0DE976206BFBC30092344E /* Build configuration list for PBXProject "Samer Store" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,9 +226,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4C0DE97A206BFBC30092344E /* iOS */,
-				4C0DE98E206BFBC40092344E /* iOSTests */,
-				4C0DE999206BFBC40092344E /* iOSUITests */,
+				4C0DE97A206BFBC30092344E /* Samer Store */,
+				4C0DE98E206BFBC40092344E /* Samer StoreTests */,
+				4C0DE999206BFBC40092344E /* Samer StoreUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C0DE97F206BFBC30092344E /* AppDelegate.swift in Sources */,
+				4C95D026206D4EA4004AB360 /* meal.swift in Sources */,
 				4C0DE9AD206BFF140092344E /* tableViewController.swift in Sources */,
+				4C95D028206D5CFF004AB360 /* detailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,12 +293,12 @@
 /* Begin PBXTargetDependency section */
 		4C0DE991206BFBC40092344E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4C0DE97A206BFBC30092344E /* iOS */;
+			target = 4C0DE97A206BFBC30092344E /* Samer Store */;
 			targetProxy = 4C0DE990206BFBC40092344E /* PBXContainerItemProxy */;
 		};
 		4C0DE99C206BFBC40092344E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4C0DE97A206BFBC30092344E /* iOS */;
+			target = 4C0DE97A206BFBC30092344E /* Samer Store */;
 			targetProxy = 4C0DE99B206BFBC40092344E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -462,7 +470,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS.app/iOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Samer Store.app/Samer Store";
 			};
 			name = Debug;
 		};
@@ -478,7 +486,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS.app/iOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Samer Store.app/Samer Store";
 			};
 			name = Release;
 		};
@@ -515,7 +523,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4C0DE976206BFBC30092344E /* Build configuration list for PBXProject "iOS" */ = {
+		4C0DE976206BFBC30092344E /* Build configuration list for PBXProject "Samer Store" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4C0DE9A1206BFBC40092344E /* Debug */,
@@ -524,7 +532,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4C0DE9A3206BFBC40092344E /* Build configuration list for PBXNativeTarget "iOS" */ = {
+		4C0DE9A3206BFBC40092344E /* Build configuration list for PBXNativeTarget "Samer Store" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4C0DE9A4206BFBC40092344E /* Debug */,
@@ -533,7 +541,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4C0DE9A6206BFBC40092344E /* Build configuration list for PBXNativeTarget "iOSTests" */ = {
+		4C0DE9A6206BFBC40092344E /* Build configuration list for PBXNativeTarget "Samer StoreTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4C0DE9A7206BFBC40092344E /* Debug */,
@@ -542,7 +550,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4C0DE9A9206BFBC40092344E /* Build configuration list for PBXNativeTarget "iOSUITests" */ = {
+		4C0DE9A9206BFBC40092344E /* Build configuration list for PBXNativeTarget "Samer StoreUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4C0DE9AA206BFBC40092344E /* Debug */,
