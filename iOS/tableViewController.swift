@@ -81,7 +81,8 @@ class tableViewController: UITableViewController {
         cell.layer.cornerRadius = 40
         cell.layer.borderWidth = 5
         cell.layer.shadowOffset = CGSize(width: -1, height: 1)
-        let borderColor: UIColor = .white
+        
+        let borderColor = UIColor(red: 0.866, green: 0.956, blue: 1, alpha: 1.0)
         cell.layer.borderColor = borderColor.cgColor
         
         return cell
