@@ -20,7 +20,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="sectionIndexBackgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="sectionIndexBackgroundColor" red="0.86650531919999996" green="0.95841720509999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="customCell" rowHeight="200" id="PjN-d5-we7" customClass="CustomTableViewCell" customModule="Samer_Store" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="200"/>
@@ -49,6 +49,7 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <color key="backgroundColor" red="0.86650531919999996" green="0.95841720509999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <outlet property="bgImageView" destination="TRl-yz-eIA" id="Be8-uk-oLB"/>
                                     <outlet property="categoryLbl" destination="iwz-MG-rpJ" id="Erx-6f-8PJ"/>
@@ -107,7 +108,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="backgroundColor" red="0.86650531919999996" green="0.95841720509999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="DbY-zB-iAK" firstAttribute="centerX" secondItem="v3p-y3-58a" secondAttribute="centerX" id="9Vy-ms-XA3"/>
                             <constraint firstItem="vXX-mb-LL9" firstAttribute="top" secondItem="qTJ-zx-4LV" secondAttribute="bottom" constant="75" id="DhY-fg-feK"/>

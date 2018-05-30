@@ -26,7 +26,7 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Samer Masaad - samer.masaad@epita.fr" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ilT-su-afW">
-                                <rect key="frame" x="33" y="636" width="309" height="21"/>
+                                <rect key="frame" x="32.5" y="636" width="310" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -38,15 +38,15 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="backgroundColor" red="0.86650531921832274" green="0.95841720510722106" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="dAZ-a4-Ney" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="4a0-BZ-7OC"/>
                             <constraint firstItem="dAZ-a4-Ney" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="LYi-nJ-KaP"/>
                             <constraint firstItem="ftL-na-8nw" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="SNT-Lp-ze8"/>
                             <constraint firstItem="ilT-su-afW" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-10" id="Vtb-Jc-oXr"/>
+                            <constraint firstItem="ilT-su-afW" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="XDE-oC-p1x"/>
                             <constraint firstItem="ilT-su-afW" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="lD1-vd-CLE"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ilT-su-afW" secondAttribute="trailing" constant="33" id="qY5-J7-XGu"/>
                             <constraint firstItem="ftL-na-8nw" firstAttribute="top" secondItem="dAZ-a4-Ney" secondAttribute="baseline" id="yUI-6F-pws"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
