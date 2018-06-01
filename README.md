@@ -5,6 +5,7 @@ This is the final project for iOS Development class
 
 ## Student Details:
 **Student name:** Samer MASAAD
+
 **Login:** samer.masaad@epita.fr
 
 
