@@ -31,8 +31,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Samer Store" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ftL-na-8nw">
-                                <rect key="frame" x="140" y="407.5" width="95" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Samer Store" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ftL-na-8nw" userLabel="APP_NAME">
+                                <rect key="frame" x="145" y="417.5" width="85.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Version: 2.0 Build: 18" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wae-6w-DEh" userLabel="APP_VERSION">
+                                <rect key="frame" x="112" y="436" width="150" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -46,8 +52,10 @@
                             <constraint firstItem="ftL-na-8nw" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="SNT-Lp-ze8"/>
                             <constraint firstItem="ilT-su-afW" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-10" id="Vtb-Jc-oXr"/>
                             <constraint firstItem="ilT-su-afW" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="XDE-oC-p1x"/>
+                            <constraint firstItem="wae-6w-DEh" firstAttribute="top" secondItem="ftL-na-8nw" secondAttribute="bottom" constant="10" id="aaH-Af-ebZ"/>
                             <constraint firstItem="ilT-su-afW" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="lD1-vd-CLE"/>
-                            <constraint firstItem="ftL-na-8nw" firstAttribute="top" secondItem="dAZ-a4-Ney" secondAttribute="baseline" id="yUI-6F-pws"/>
+                            <constraint firstItem="wae-6w-DEh" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ri5-nE-5kD"/>
+                            <constraint firstItem="ftL-na-8nw" firstAttribute="top" secondItem="dAZ-a4-Ney" secondAttribute="baseline" constant="10" id="yUI-6F-pws"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

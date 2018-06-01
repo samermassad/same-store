@@ -81,7 +81,7 @@
 		4C0DE972206BFBC30092344E = {
 			isa = PBXGroup;
 			children = (
-				4C0DE97D206BFBC30092344E /* iOS */,
+				4C0DE97D206BFBC30092344E /* Samer Store */,
 				4C0DE992206BFBC40092344E /* SamerStoreTests */,
 				4C0DE99D206BFBC40092344E /* SamerStoreUITests */,
 				4C0DE97C206BFBC30092344E /* Products */,
@@ -98,7 +98,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4C0DE97D206BFBC30092344E /* iOS */ = {
+		4C0DE97D206BFBC30092344E /* Samer Store */ = {
 			isa = PBXGroup;
 			children = (
 				4C0DE97E206BFBC30092344E /* AppDelegate.swift */,
@@ -110,7 +110,7 @@
 				4C0DE987206BFBC30092344E /* LaunchScreen.storyboard */,
 				4C0DE98A206BFBC30092344E /* Info.plist */,
 			);
-			path = iOS;
+			path = "Samer Store";
 			sourceTree = "<group>";
 		};
 		4C0DE992206BFBC40092344E /* SamerStoreTests */ = {
@@ -140,6 +140,7 @@
 			buildPhases = (
 				4C0DE977206BFBC30092344E /* Sources */,
 				4C0DE978206BFBC30092344E /* Frameworks */,
+				4CAAFB5A20C16D0800351BC4 /* ShellScript */,
 				4C0DE979206BFBC30092344E /* Resources */,
 			);
 			buildRules = (
@@ -259,6 +260,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4CAAFB5A20C16D0800351BC4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#   ON/OFF Script Toggle (script ON with #, script OFF without #)\n#exit 0\n\n#   Increment Build Number Bool (Increment ON with true, increment OFF with false)\nshouldIncrement=true\n\n#   App Name / App vesion / Build version constants\nappName=$(/usr/libexec/PlistBuddy -c \"Print CFBundleDisplayName\" \"$INFOPLIST_FILE\")\nversionNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleShortVersionString\" \"$INFOPLIST_FILE\")\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$INFOPLIST_FILE\")\n\n#   Increment build number\nif [ \"$shouldIncrement\" = true ]; then\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$INFOPLIST_FILE\"\nfi\n\n#   Output version & build numbers into a label on LaunchScreen.storyboard\nsed -i bak -e \"/userLabel=\\\"APP_NAME\\\"/s/text=\\\"[^\\\"]*\\\"/text=\\\"$appName\\\"/\" \"$PROJECT_DIR/$PROJECT_NAME/Base.lproj/LaunchScreen.storyboard\"\nsed -i bak -e \"/userLabel=\\\"APP_VERSION\\\"/s/text=\\\"[^\\\"]*\\\"/text=\\\"Version: $versionNumber Build: $buildNumber\\\"/\" \"$PROJECT_DIR/$PROJECT_NAME/Base.lproj/LaunchScreen.storyboard\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4C0DE977206BFBC30092344E /* Sources */ = {
@@ -435,9 +452,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = iOS/Info.plist;
+				INFOPLIST_FILE = "Samer Store/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = epita.iOS;
+				PRODUCT_BUNDLE_IDENTIFIER = epita.SamerStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -449,9 +466,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = iOS/Info.plist;
+				INFOPLIST_FILE = "Samer Store/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = epita.iOS;
+				PRODUCT_BUNDLE_IDENTIFIER = epita.SamerStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
